@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pak-dev-utils"
+version = "0.1.0"
+description = "Small validators/formatters for Pakistani identifiers (CNIC, mobile, PK IBAN)"
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+include = ["pak_dev_utils*"]
